@@ -1,6 +1,6 @@
 #FirstProgram.py
-#Name:Levi Woockman
-#Date:8/29/24
+#Name: Levi Woockman
+#Date: 8/30/24
 #Assignment: Lab 1
 
 def main():
@@ -12,7 +12,7 @@ def main():
   #Use the user's name in the program.
   print("Greetings", name)
   #Ask the user for their age.
-  age=input(Enter your age: )
+  age=input("Enter your age: ")
   age=int(age)
   #Tell the user what year they were born in.
   born= 2024 - age
@@ -22,3 +22,5 @@ def main():
 #Call the main function if this is the file being run.
 if __name__ == '__main__':
     main()
+
+
